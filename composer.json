@@ -1,0 +1,26 @@
+{
+    "name": "gabriel/back-escola-online-ti",
+    "description": "Criação do back-end da escolaOnlineTi",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\BackEscolaOnlineTi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Carlos Cavalcante",
+            "email": "gabrielcarloscavalcante@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "doctrine/orm": "^2.14",
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/cache": "^6.2",
+        "doctrine/lexer": "^2",
+        "doctrine/annotations": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
